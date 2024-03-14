@@ -26,7 +26,7 @@ const buff = Buffer.from([65 , 66 , 67]);
 
 console.log(buff.toString("utf-8"));
 
-// another way
+// another way to creat a buffer and give values
 
 const buff1 = Buffer.from("486921" , 'hex');
 
